@@ -146,6 +146,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+				max-width: 699px;
 			}
 
 		}
