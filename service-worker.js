@@ -37,6 +37,10 @@ self.addEventListener('message', function (event) {
     self.skipWaiting();
   }
 });
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./pwa-examples/js13kpwa/sw.js');
+}
+
 
 self.addEventListener('fetch', function (event) {
   //Atualizacao internet
@@ -49,7 +53,7 @@ self.addEventListener('fetch', function (event) {
    }());
 
   //Atualizacao cache
-  /*event.respondWith(
+  event.respondWith(
     caches.match(event.request)
       .then(function (response) {
         if (response) {
@@ -57,6 +61,6 @@ self.addEventListener('fetch', function (event) {
         }
         return fetch(event.request);
       })
-  );*/
+  );
 
 });
