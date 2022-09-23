@@ -75,6 +75,18 @@
       "url": ""
     }
   ],
+
+  "related_applications": [
+    {
+      "platform": "WEB",
+      "url": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj3yPHFi6v6AhWTIbkGHVTMAWkQFnoECA0QAQ&url=https%3A%2F%2Fwww.w3schools.com%2Fgit%2F&usg=AOvVaw1qD4fR1rgJvtyEJ-rUh9A0"
+    }, {
+      "platform": "GIT",
+      "url": "https://git-scm.com/docs/gittutorial"
+    }
+  ],
+  
+  "orientation": "portrait-primary",
   "categories": ["git", "education", "programming"],  
   "start_url": "index.html",
   "display": "standalone",
