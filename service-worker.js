@@ -1,4 +1,4 @@
-var cacheName = 'pwaTeste+-v1.2';
+var cacheName = 'Git4Dum+-v1.2';
 
 self.addEventListener('install', event => {
 

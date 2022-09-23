@@ -44,6 +44,38 @@
       "type": "image/png"
     }
   ],
+  "screenshots" : [
+    {
+      "src": "images/scr1.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "portrait",
+      "label": "Homescreen of Awesome App"
+    },
+    {
+      "src": "images/scr2.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "platform": "portrait",
+      "label": "List of Awesome Resources available in Awesome App"
+    }
+  ],
+  "shortcuts" : [
+    {
+      "name": "Today's agenda",
+      "url": "",
+      "description": "List of events planned for today"
+    },
+    {
+      "name": "New event",
+      "url": ""
+    },
+    {
+      "name": "New reminder",
+      "url": ""
+    }
+  ],
+  "categories": ["git", "education", "programming"],  
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#935d8c",
