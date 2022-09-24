@@ -24,7 +24,6 @@ self.addEventListener('install', event => {
         './images/icons/Assets.xcassets/AppIcon.appiconset/196.png',
         './images/icons/Assets.xcassets/AppIcon.appiconset/256.png',
         './images/icons/Assets.xcassets/AppIcon.appiconset/512.png',
-     
     ]))
     );
   });
