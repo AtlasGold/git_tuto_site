@@ -250,7 +250,7 @@ workbox.routing.registerRoute(
   }),
 );
 
-/* const cacheName = 'js13kPWA-v1';
+ const cacheName = 'js13kPWA-v1';
 const appShellFiles = [
   '/pwa-examples/js13kpwa/',
   '/index.html',
@@ -357,4 +357,4 @@ self.addEventListener('fetch', (e) => {
     cache.put(e.request, response.clone());
     return response;
   })());
-}); */
+});
