@@ -39,7 +39,15 @@
 		<link href="assets/img/ios/Iphone7.png" sizes="1563x2779" rel="apple-touch-startup-image" />
 		<link href="assets/img/ios/IphoneSE-05.png" sizes="1333x2367" rel="apple-touch-startup-image" />
 		<link href="assets/img/ios/IphoneX-05.png" sizes="2344x5075" rel="apple-touch-startup-image" />
-	  
+		<location path="/service-worker.js">
+			<system.webServer>
+				<httpProtocol>
+					<customHeaders>
+						<add name="Service-Worker-Allowed" value="/" />
+					</customHeaders>
+				</httpProtocol>
+			</system.webServer>
+		</location>
 		<link rel="icon" type="image/png" href="images/icons/Assets.xcassets/AppIcon.appiconset/114.png">
 	  
 	</head>

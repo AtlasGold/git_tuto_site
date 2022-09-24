@@ -1,3 +1,10 @@
+self.addEventListener("install", event => {
+  console.log("Service worker installed");
+});
+self.addEventListener("activate", event => {
+  console.log("Service worker activated");
+});
+
 // This is the "Offline page" service worker
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./service-worker.js').then(function(reg) {
