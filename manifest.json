@@ -107,8 +107,8 @@
   
   "orientation": "portrait-primary",
   "categories": ["git", "education", "programming"],  
-  "start_url": "https://main--pwagit4dummies.netlify.app",
-  "display": "standalone",
+  "start_url": "index.html",
+  "display": "fullscreen",
   "background_color": "#935d8c",
   "theme_color": "#4D5360"
 }
