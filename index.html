@@ -45,14 +45,16 @@
 	</head>
 	<body class="is-preload">
 		<p id='demo' style='display: none'>Clique Na Mosca</p>     
-		<button class =".button" onclick="mostre()"> clique para vibrar </button>
+		<button id ="button_vibrate" onclick="mostre()"> clique para vibrar </button>
 		<script> function vibre(){
 			navigator.vibrate([300,100,300,100,500]);
 		}
 		function mostre() {
 			var text = document.getElementById("demo");
+			var button = document.getElementById("button_vibrate")
 			if (text.style.display === "none") {
 				text.style.display = "block";
+				button.style.visibility = "hidden";
 			} else {
 				text.style.display = "none";
 			}
