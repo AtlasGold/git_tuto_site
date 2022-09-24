@@ -1,10 +1,6 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+
+<html lang="en">
 	<head>
 		<title>Git For Dummies</title>
 		<meta charset="utf-8" />
@@ -66,9 +62,11 @@
 										<header class="major">
 											<h2>What is Git?</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<p>Git é um sistema de controle de versão open-source e gratuito.
+										 Por meio dele, é possível observar a criação de histórico com versões
+										 das alterações realizadas no código-fonte dos projetos de desenvolvimento.
+										 Inclusive, foi criado por Linus Torvalds, que também é conhecido como o criador do Linux. 
+										</p>
 										
 									</div>
 									<span class="image"><img src="images/git.png" alt="" /></span>
@@ -83,17 +81,17 @@
 								<ul class="features">
 									<li>
 										<span class="icon solid major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
+										
 										<p>Be able to get older versions of your projects if you have messed up on them!</p>
 									</li>
 									<li>
 										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
+										
 										<p>Don't loose your files, save everything!</p>
 									</li>
 									<li>
 										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
+										
 										<p>Sync with Github and get to see your work all set!</p>
 									</li>
 								</ul>
@@ -113,7 +111,7 @@
 							
 								<h3>Mudar a sua Branch</h3>
 								<pre><code>git branch -m main</code></pre>
-								<p>  por padrão o git lhe coloca na branch master mas o ideal por boas praticas é ultilizar a branch main </p>
+								<p>  Por padrão o git lhe coloca na branch master mas o ideal por boas praticas é ultilizar a branch main </p>
 
 								<h3>Adicionar novos arquivos </h3>
 								<pre><code>git add (nome do arquivo) </code></pre>
@@ -129,7 +127,7 @@
 
 								<h3> Mostrar Historico de Commits</h3>
 								<pre><code>git log </code></pre>
-								<p>  mostrará todos os commits realizados antes do push e com seus HASH, você pode navegar pelo historico assim </p>
+								<p>  Mostrará todos os commits realizados antes do push e com seus HASH, você pode navegar pelo historico assim </p>
 
 								<footer class="">
 									
@@ -152,15 +150,15 @@
 								<dd>Narnia, Rua Armario de Carvalho, 69 </dd>
 		
 								<dt>Phone</dt>
-								<dd>(xx) xxxx-xxxx</dd>
+								<dd>(55) 55555-5555</dd>
 								<dt>Email</dt>
-								<dd><a href="#">flicomp@ig.com</a></dd>
+								<dd><a href="mailto:flicomp@ig.com">flicomp@ig.com</a></dd>
 							</dl>
 							<ul class="icons">
 								
 								
-								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								
+								<li><a href="https://github.com/AtlasGold/git_tuto_site" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
 								
 							</ul>
 						</section>
@@ -179,42 +177,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-			<script>
-				let newWorker;
-				function showUpdateBar() {
-				  let snackbar = document.getElementById('snackbar');
-				  snackbar.className = 'show';
-				}
-				// The click event on the pop up notification
-				document.getElementById('reload').addEventListener('click', function () {
-				  newWorker.postMessage({ action: 'skipWaiting' });
-				});
-				if ('serviceWorker' in navigator) {
-				  navigator.serviceWorker.register('/service-worker.js').then(reg => {
-					reg.addEventListener('updatefound', () => {
-					  // A wild service worker has appeared in reg.installing!
-					  newWorker = reg.installing;
-					  newWorker.addEventListener('statechange', () => {
-						// Has network.state changed?
-						switch (newWorker.state) {
-						  case 'installed':
-							if (navigator.serviceWorker.controller) {
-							  // new update available
-							  showUpdateBar();
-							}
-							// No update available
-							break;
-						}
-					  });
-					});
-				  });
-				  let refreshing;
-				  navigator.serviceWorker.addEventListener('controllerchange', function () {
-					if (refreshing) return;
-					window.location.reload();
-					refreshing = true;
-				  });
-				}
-			  </script>
+			
 	</body>
 </html>
