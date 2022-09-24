@@ -1,7 +1,6 @@
 {
   "name": "Git For Dummies",
   "short_name": "Git4Dum",
-  "scope": "https://main--pwagit4dummies.netlify.app",
   "icons": [
     {
       "src": "images/icons/Assets.xcassets/AppIcon.appiconset/128.png",
