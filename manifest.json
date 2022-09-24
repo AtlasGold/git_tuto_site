@@ -71,6 +71,11 @@
       "type": "image/jpeg",
       "platform": "portrait",
       "label": "List of Awesome Resources available in Awesome App"
+    },
+    {
+      "name": "Git For Dummies",
+      "display": "standalone",
+      "start_url": "/?standalone=true"
     }
   ],
   "shortcuts" : [
