@@ -4,54 +4,54 @@
   "scope": "https://main--pwagit4dummies.netlify.app",
   "icons": [
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/128.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/114.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/114.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/152.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/167.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/167.png",
       "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/180.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/180.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/196.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/196.png",
       "sizes": "192x192",
       "type": "image/png",
 	  "purpose": "any maskable"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/256.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/256.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "images/icons/Assets.xcassets/AppIcon.appiconset/512.png",
+      "src": "/images/icons/Assets.xcassets/AppIcon.appiconset/512.png",
       "sizes": "512x512",
       "type": "image/png"
     }, 
     {
-      "src": "images/maskable_icon.png",
+      "src": "/images/maskable_icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "images/maskable_icon.png",
+      "src": "/images/maskable_icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable" 
@@ -75,7 +75,7 @@
     },
     {
       "name": "Git For Dummies",
-      "display": "portrait",
+      "display": "standalone",
       "start_url": "https://main--pwagit4dummies.netlify.app"
     }
   ],
