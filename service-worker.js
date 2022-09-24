@@ -1,4 +1,11 @@
 // This is the "Offline page" service worker
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./service-worker.js').then(function(reg) {
+      console.log('Successfully registered service worker', reg);
+  }).catch(function(err) {
+      console.warn('Error whilst registering service worker', err);
+  });
+  }
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 

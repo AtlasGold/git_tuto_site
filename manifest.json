@@ -106,7 +106,7 @@
   
   "orientation": "portrait-primary",
   "categories": ["git", "education", "programming"],  
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#935d8c",
   "theme_color": "#4D5360"
