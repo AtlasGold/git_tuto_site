@@ -44,13 +44,21 @@
 	  
 	</head>
 	<body class="is-preload">
+		<p id='demo' style='display: none'>Clique Na Mosca</p>     
+		<button type='button' onclick="toggleText()">Click me</button>
 		<button onclick="mostre()"> clique para vibrar </button>
 		<script> function vibre(){
 			navigator.vibrate([300,100,300,100,500]);
 		}
-			function mostre(){
-				alert('Clique Na Mosca')
+		function mostre() {
+			var text = document.getElementById("demo");
+			if (text.style.display === "none") {
+				text.style.display = "block";
+			} else {
+				text.style.display = "none";
 			}
+			}
+
 			</script>
 		<!-- Wrapper -->
 			<div id="wrapper">
