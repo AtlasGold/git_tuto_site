@@ -15,13 +15,13 @@ self.addEventListener('install', event => {
         './assets/img/background.png',
         './assets/img/logo.png',
         './images/icons/Assets.xcassets/AppIcon.appiconset/128.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/144.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/152.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/167.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/180.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/196.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/256.png',
-        '/images/icons/Assets.xcassets/AppIcon.appiconset/512.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/144.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/152.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/167.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/180.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/196.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/256.png',
+        './images/icons/Assets.xcassets/AppIcon.appiconset/512.png',
      
     ]))
     );
