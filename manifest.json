@@ -1,6 +1,7 @@
 {
   "name": "Git For Dummies",
   "short_name": "Git4Dum",
+  "scope": "https://main--pwagit4dummies.netlify.app",
   "icons": [
     {
       "src": "images/icons/Assets.xcassets/AppIcon.appiconset/128.png",
@@ -74,8 +75,8 @@
     },
     {
       "name": "Git For Dummies",
-      "display": "standalone",
-      "start_url": "/?standalone=true"
+      "display": "portrait",
+      "start_url": "https://main--pwagit4dummies.netlify.app"
     }
   ],
   "shortcuts" : [
@@ -106,7 +107,7 @@
   
   "orientation": "portrait-primary",
   "categories": ["git", "education", "programming"],  
-  "start_url": "/",
+  "start_url": "https://main--pwagit4dummies.netlify.app",
   "display": "standalone",
   "background_color": "#935d8c",
   "theme_color": "#4D5360"
