@@ -292,7 +292,7 @@ self.addEventListener('install', event => {
         './Assets.xcassets/AppIcon.appiconset/180.png',
         './Assets.xcassets/AppIcon.appiconset/196.png',
         './Assets.xcassets/AppIcon.appiconset/256.png',
-        './Assets.xcassets/AppIcon.appiconset/512.png',
+        './Assets.xcassets/AppIcon.appiconset/512.png'
  //       './assets/img/formulas.JPG',
       ]))
   );
