@@ -240,7 +240,7 @@ workbox.routing.registerRoute(
 );
 // This is the "serving cached media" service worker
 
-const CACHE = "pwabuilder-offline";
+const cache = "pwabuilder-offline";
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.1.2/workbox-sw.js');
 
