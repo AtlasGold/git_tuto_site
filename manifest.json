@@ -75,7 +75,7 @@
     {
       "name": "Git For Dummies",
       "display": "standalone",
-      "start_url": "/"
+      "start_url": "index.html"
     }
   ],
 
@@ -92,7 +92,7 @@
   
   "orientation": "portrait-primary",
   "categories": ["git", "education", "programming"],  
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#935d8c",
   "theme_color": "#4D5360"
